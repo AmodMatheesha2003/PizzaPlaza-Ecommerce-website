@@ -1,0 +1,77 @@
+.login{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+.login-popup{
+    place-self: center;
+    width: max(23vw,330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-tittle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.login-popup-tittle img{
+    width: 16px;
+    cursor: pointer;
+}
+
+.login-popup-insert{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-insert input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.login-popup button{
+    border: none;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+    
+.login-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px
+}
+
+.login-condition input{
+    margin-top: 15px;
+}
+
+.Toastify__toast-container {
+    z-index: 9999;
+}
+
+.login-popup-tittle h2{
+    color: tomato;
+}
