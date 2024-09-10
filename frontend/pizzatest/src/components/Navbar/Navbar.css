@@ -1,0 +1,112 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    width: 200px;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #49557e;
+    font-size: 18px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.navbar button{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+.navbar button:hover{
+    background-color:  rgba(255, 99, 71, 0.433);
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: 6px;
+    right: -1px;
+}
+
+.login p span{
+    color: tomato;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.navbar-search-icon img{
+    width: 40px;
+}
+
+.navbarprofile{
+    position: relative;
+}
+
+.profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+
+.navbarprofile:hover .profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(254, 236, 232);
+    padding: 12px 25px;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid tomato;
+    outline: 2px solid rgb(251, 128, 107);
+    list-style: none;
+}
+
+.profile-dropdown li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.profile-dropdown img{
+    width: 30px;
+}
+
+.navbarprofile .profile{
+    width: 40px;
+    margin-top: 10px;
+}
+
+.profile-dropdown p {
+    font-size: 14px;
+}
