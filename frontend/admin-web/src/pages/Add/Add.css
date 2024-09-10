@@ -1,0 +1,60 @@
+.add{
+    width: 70%;
+    margin-left: max(4vw,25px);
+    margin-top: 20px;
+    color: #6d6d6d;
+    font-size: 20px;
+}
+
+.add form{
+    gap: 20px;
+}
+
+.img-upload img{
+    width: 160px;
+    border: 1px solid rgba(255, 99, 71, 0.67);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.img-upload img:hover{
+    background-color: rgba(255, 99, 71, 0.231);
+}
+
+.food-name, .food-price, .food-description{
+    width: max(50%,280px);
+}
+
+.food-name input, .food-price input, .food-description textarea{
+    padding: 11px;
+    
+}
+
+.food-category select{
+    max-width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.addbutton{
+    max-width: 150px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(30, 207, 98);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.addbutton:hover{
+    background-color: rgb(19, 119, 76);
+}
+
+.food-name input:focus, .food-price input:focus, .food-description textarea:focus, .food-category select:focus {
+    border-color: rgba(255, 99, 71, 0.67);
+    outline: none;
+}
+
+.food-name input, .food-price input, .food-description textarea, .food-category select {
+    border-radius: 5px;
+}

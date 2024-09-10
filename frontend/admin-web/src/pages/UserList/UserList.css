@@ -1,0 +1,46 @@
+.list-tabel-format2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 2fr 3fr 1fr;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .list-tabel-format2 p {
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+    word-wrap: break-word;
+  }
+  
+  .list-tabel-format2 .delete {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .list-tabel-format2:hover {
+    background-color: rgba(255, 99, 71, 0.088);
+  }
+  
+  .tittle {
+    font-weight: bold;
+    background-color: #ececec;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 2fr 3fr 1fr;
+  }
+  
+  .list-tabel {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .delete {
+    text-align: center;
+  }
+  
