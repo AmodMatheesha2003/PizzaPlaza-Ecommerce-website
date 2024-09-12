@@ -20,6 +20,8 @@ Welcome to the Pizza Ordering Application! This project consists of a full-stack
 - **E-mail Service**
 - **Admin Management System**
 
+  #check YouTube : https://youtu.be/Wjo0yd7lQNU?si=ktkPqLv0vgqxvZ24
+
 
 ### Front End - Installation
 
@@ -27,3 +29,4 @@ To install dependencies for the front-end application, run:
 
 ```bash
 npm install
+
