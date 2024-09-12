@@ -22,7 +22,7 @@ Welcome to the PizzaPlaza Online Pizza Ordering Application! This project is a f
 
 ## Demo
 
-Check out the [YouTube demo](https://youtu.be/Wjo0yd7lQNU?si=x1iXQbuW0vfhAC4v) to see the PizzaPlaza application in action.
+Check out the [YouTube](https://youtu.be/Wjo0yd7lQNU?si=x1iXQbuW0vfhAC4v) to see the PizzaPlaza application in action.
 
 ## Getting Started
 
