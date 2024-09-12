@@ -29,8 +29,8 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/amod-matheesha-a1a2a72
 
 1. **MySQL Database Setup**
 
-   - Import the MySQL database into your local MySQL instance. The `.sql` file for the database is located in the `database` folder of this repository.
-   - Update the `application.properties` or `application.yml` files in all Spring Boot microservices with your MySQL username and password.
+   - Import the MySQL database into your local MySQL instance. The `.sql` file for the database is located in the `mysql_database` folder of this repository.
+   - Update the `application.properties` files in all Spring Boot microservices with your MySQL username and password.
 
      Example of `application.properties` update:
 
